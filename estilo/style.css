@@ -70,18 +70,24 @@ margin-bottom:30px;
 }
 
 .botao{
-background:#2fa84f;
-padding:16px 35px;
-text-decoration:none;
-color:white;
-border-radius:30px;
-font-size:18px;
-font-weight:bold;
-transition:.3s;
+.botao{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 35px;
+    background: #2fa84f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    min-width: 240px;
+    transition: .3s;
 }
 
 .botao:hover{
-background:#228b3f;
+    background:#228b3f;
 }
 
 section{
@@ -224,26 +230,5 @@ grid-template-columns:1fr;
     .hero p{
         font-size: 18px;
     }
-
-    .botao{
-        display: inline-block;
-        width: auto;
-        padding: 14px 25px;
-        font-size: 18px;
-        border-radius: 30px;
-        white-space: nowrap;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
 
 }
