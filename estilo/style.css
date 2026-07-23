@@ -209,4 +209,41 @@ font-size:38px;
 grid-template-columns:1fr;
 }
 
+/* Ajustes para celular */
+@media (max-width: 768px) {
+
+    .hero .conteudo{
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    .hero h2{
+        font-size: 48px;
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
+
+    .botao{
+        display: inline-block;
+        width: auto;
+        padding: 14px 25px;
+        font-size: 18px;
+        border-radius: 30px;
+        white-space: nowrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 }
